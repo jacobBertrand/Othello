@@ -33,6 +33,6 @@ class GameBoard:
                     else:
                         newRow += "B"
 
-    def PlacePice(self, coordinates, isWhite):
+    def PlacePiece(self, coordinates, isWhite):
         self.Cells[coordinates[0]][coordinates[1]].SetIsEmpty(False)
         self.Cells[coordinates[0]][coordinates[1]].SetIsWhite(isWhite)
